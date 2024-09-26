@@ -1,0 +1,36 @@
+.bg-color {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to left top, #ffffff, #f4f5fe, #e6ebfe, #d4e3fe, #bfdbfe);
+  height: 100vh;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.link {
+  list-style: none;
+  background-color: bisque;
+  width: 16rem;
+  height: 2rem;
+}
